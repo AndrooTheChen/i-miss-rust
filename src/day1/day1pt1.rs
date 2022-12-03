@@ -1,3 +1,5 @@
+mod day1pt1
+
 use std::fs::File;
 use std::fs::read_to_string;
 use std::io::{BufRead, BufReader};
@@ -8,7 +10,7 @@ fn read_file_string(filepath: &str) -> Result<String, Box<dyn std::error::Error>
     Ok(data)
 }
 
-fn main() {
+pub fn day1pt1() {
     let mut max_calories = 0;
     let mut calories = 0;
 
