@@ -9,3 +9,7 @@ edition = "2021"
 priority-queue = "1.3.0"
 anyhow = "1.0.4"
 
+[[bin]]
+name = "day3pt1"
+path = "src/day3/day3pt1.rs"
+
